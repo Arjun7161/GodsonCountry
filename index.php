@@ -8,24 +8,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="high">
         <video class="video" autoplay loop muted plays-incline>
-            <source src="Images/istockphoto-472967407-640_adpp_is.mp4" type="video/mp4">
+            <source src="Img/istockphoto-1366247940-640_adpp_is.mp4" type="video/mp4">
         </video>
         <nav>
-            <img src="Images/logo.png" class="logo">
+            <img src="Img/logo.png" class="logo">
             <a class="navbar-brand" href="#">God's Own Country</a>
 
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Log In</a></li>
-                <li><a href="#">Sign Up</a></li>
+                <li><a class="nav-link" href="index.php">Home</a></li>
+                <li><a class="nav-link" href="#">About Us</a></li>
+                <li><a class="nav-link" href="login.php">Log In</a></li>
+                <li><a class="nav-link" href="signup.php">Sign Up</a></li>
             </ul>
         </nav>
         <div class="content">
