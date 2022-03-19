@@ -50,7 +50,7 @@
                     <input type="password" name="password"  placeholder=" Enter Password" class="form-control" required>
                 </div>
                 
-                <button type="submit" class="btn btn-primary"> Sign Up </button>
+                <button type="submit" class="btn btn-primary"> Log In </button>
                 </form>
             </div>
             </div>
