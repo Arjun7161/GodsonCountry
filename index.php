@@ -19,11 +19,11 @@
         </video>
         <nav>
             <img src="Img/logo.png" class="logo">
-            <a class="navbar-brand" href="#">God's Own Country</a>
+            <a class="navbar-brand" href="index.php">God's Own Country</a>
 
             <ul>
                 <li><a class="nav-link" href="index.php">Home</a></li>
-                <li><a class="nav-link" href="#">About Us</a></li>
+                <li><a class="nav-link" href="about.php">About Us</a></li>
                 <li><a class="nav-link" href="login.php">Log In</a></li>
                 <li><a class="nav-link" href="signup.php">Sign Up</a></li>
             </ul>
