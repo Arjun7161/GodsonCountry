@@ -119,10 +119,11 @@ nav ul li{
     text-align: center;
 }
  .content h1{
-    font-size: 40px;
+    font-size: 30px;
    font-weight: 200px; ;
    color:cadetblue;
    text-transform:capitalize;
+   
  }
  .video{
      position: absolute;
