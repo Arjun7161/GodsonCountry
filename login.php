@@ -1,5 +1,6 @@
 <?php
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,23 +30,24 @@
                 <li><a class="nav-link" href="about.php">About Us</a></li>
                 <li><a class="nav-link" href="login.php">Log In</a></li>
                 <li><a class="nav-link" href="signup.php">Sign Up</a></li>
+                <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
         </nav>
         <!--login -->
         <div class="container">
-    <h1>Log In</h1>
+    
             <div class="row">
-            
+            <h1>Log In</h1>
                 <div class ="col-md-6">
     
-                <form action="signup.php" method="post">
+                <form action="val.php" method="post">
                 <div class="form-group">
                     <label>Username</label>
-                    <input type="text" name="user" class="form-control" required>
+                    <input type="text" name="user"  placeholder=" Enter Username" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label>Password</label>
-                    <input type="password" name="password" class="form-control" required>
+                    <input type="password" name="password"  placeholder=" Enter Password" class="form-control" required>
                 </div>
                 
                 <button type="submit" class="btn btn-primary"> Sign Up </button>
