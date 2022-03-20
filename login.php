@@ -18,6 +18,7 @@
     />
 </head>
 <body>
+    <div class="bg">
 <div class="high">
         
         
@@ -56,6 +57,7 @@
             </div>
             </div>
         </div>
+</div>
     </div>
     </section>
     <footer>
