@@ -1,4 +1,5 @@
-<?phpsession_start();
+<?php
+session_start();
 header('location:login.php');
 $con= mysqli_connect('localhost','root','');
 
