@@ -2,7 +2,7 @@
 session_start();
 header('location:login.php');
 $con= mysqli_connect('localhost','root','');
-
+$errors=array();
 mysqli_select_db($con,'cmm007');
 $name=$_POST['user'];
 $email=$_POST['email'];
@@ -22,4 +22,6 @@ if($num == 1){
     mysqli_query($con,$conn);
     echo"Signed UP";
 }
+
+
 ?>

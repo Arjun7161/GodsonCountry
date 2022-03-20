@@ -43,6 +43,7 @@
                 <div class ="col-md-6">
     
                 <form action="val.php" method="post">
+                    
                 <div class="form-group">
                     <label>Username</label>
                     <input type="text" name="user"  placeholder=" Enter Username" class="form-control" required>
