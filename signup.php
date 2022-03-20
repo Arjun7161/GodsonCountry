@@ -31,7 +31,8 @@
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
         </nav>
-        <!--login -->
+        <!--sign in -->
+        <section>
         <div class="container">
     
             <div class="row">
@@ -61,8 +62,9 @@
             </div>
         </div>
     </div>
+    </section>
     <footer>
-        <p>Copyright Team I | 2022 | Gods Own Country</p>
+        <p>Copyright CMM007 | 2022 | Gods Own Country</p>
     </footer>
 </body>
 </html>

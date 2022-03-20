@@ -45,7 +45,7 @@ if(!isset($_SESSION['username'])){
         </div>
     </div>
     <footer>
-        <p>Copyright Team I | 2022 | Gods Own Country</p>
+        <p>Copyright CMM007 | 2022 | Gods Own Country</p>
     </footer>
 </body>
 
