@@ -162,3 +162,7 @@ form{
 form .form-group label{
     color: #ccc;
 }
+
+.container .row h1{
+    color: aliceblue;
+}
