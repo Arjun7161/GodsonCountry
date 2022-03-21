@@ -62,7 +62,7 @@ if(!isset($_SESSION['username'])){
                     <div class="card card2">
                         <a href="architect.php" class="button">Architect</a>
                     </div>
-                   
+                     
 
                 </div>
                 </div>
