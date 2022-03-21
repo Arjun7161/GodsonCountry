@@ -154,11 +154,11 @@ form{
 .bg{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,50,.05),rgba(0,0,50,0.5)),url("Img/houseboat-kerala-2791119__480.jpg");
+    background-image: linear-gradient(rgba(0,0,50,.05),rgba(0,0,50,0.5)),url("Img/Kerala-backwaters-35.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
 }
-form label{
+form .form-group label{
     color: #ccc;
 }
