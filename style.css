@@ -120,11 +120,6 @@ flex-basis: 50%;
  }
 
 
-
-
-
-
-
  .video{
      position: absolute;
      right: 0;
@@ -170,5 +165,57 @@ form .form-group label{
 }
 
 .container .row h1{
+    color: aliceblue;
+}
+
+/*location page*/
+.cards{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(225px,1fr));
+    gap: 20px;
+    }
+.cards .card p1{
+    color:darkgray;
+}
+
+.bg-location{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,50,.05),rgba(0,0,50,0.5));
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute
+}
+
+.cards .card1{
+    background-image: url(Img/Palakkad.jpg);
+    
+}
+
+.cards .card2{
+    background-image: url(Img/Ernakulam.jpg);
+}
+.cards .card3{
+    background-image: url(Img/houseboat-kerala-2791119__480.jpg);
+}
+.cards .card4{
+    background-image: url(Img/Wayanad.jpg);
+}
+.cards .card5{
+    background-image: url(Img/calicut.jpg);
+}
+.cards .card6{
+    background-image: url(Img/Trivandram.jpg);
+}
+.cards .card7{
+    background-image: url(Img/kannur.jpg);
+}
+.cards .card8{
+    background-image: url(Img/Kasarkod.jpg);
+}
+.button{
     color: aliceblue;
 }

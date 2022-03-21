@@ -21,10 +21,9 @@ if(!isset($_SESSION['username'])){
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="bg-location">
 <div class="high">
-        <video class="video" autoplay loop muted plays-incline>
-            <source src="Img/istockphoto-1366247940-640_adpp_is.mp4" type="video/mp4">
-        </video>
+        
 
         <div class="navbar">
         <img src="Img/logo.png" class="logo">
@@ -41,31 +40,67 @@ if(!isset($_SESSION['username'])){
         </nav>
         </div>
         
-        <div class="content">
-        <div class="col">
-             <h1>Kerala</h1>
-            <p1>What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book.</p1>
-                </div>
-                <div class="col">
+        <div class="cards">
                     <div class="card card1">
-                        <a href="location.php" class="button"> Location</a>
+                    <p1>What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer.
+               </p1>
+                        <a href="location.php" class="button"> Palakkad</a>
                     </div>
                     <div class="card card2">
-                        <a href="architect.php" class="button">Architect</a>
+                    <p1>What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p1>
+                        <a href="architect.php" class="button">Ernakulam</a>
                     </div>
-                    <div class="card card2">
-                        <a href="architect.php" class="button">Architect</a>
+                    <div class="card card3">
+                    <p1>What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p1>
+                        <a href="architect.php" class="button">Alpuzha</a>
                     </div>
-                    <div class="card card2">
-                        <a href="architect.php" class="button">Architect</a>
+                    <div class="card card4">
+                    <p1>What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p1>
+                        <a href="architect.php" class="button">Wayanad</a>
                     </div>
-                     
-
+                    <div class="card card5">
+                    <p1>What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p1>
+                        <a href="architect.php" class="button">Kozhikode</a>
+                    </div>
+                    <div class="card card6">
+                    <p1>What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p1>
+                        <a href="architect.php" class="button">Trivandram</a>
+                    </div>
+                    <div class="card card7">
+                    <p1>What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p1>
+                        <a href="architect.php" class="button">Kannur</a>
+                    </div>
+                    <div class="card card8">
+                    <p1>What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer.
+                </p1>
+                        <a href="architect.php" class="button">Kasarkod</a>
+                    </div>
+                    
+                    
                 </div>
-                </div>
+</div>
     </div>
     <footer>
         <p>Copyright CMM007 | 2022 | Gods Own Country</p>
