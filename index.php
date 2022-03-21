@@ -23,10 +23,11 @@ if(!isset($_SESSION['username'])){
         <video class="video" autoplay loop muted plays-incline>
             <source src="Img/istockphoto-1366247940-640_adpp_is.mp4" type="video/mp4">
         </video>
-        <nav>
-            <img src="Img/logo.png" class="logo">
-            <a class="navbar-brand" href="index.php">God's Own Country</a>
 
+        <div class="navbar">
+        <img src="Img/logo.png" class="logo">
+        <a class="navbar-brand" href="index.php">God's Own Country</a>
+        <nav>
             <ul>
             <h1>Welcome <?php echo $_SESSION['username']; ?> </h1>
                 <li><a class="nav-link" href="index.php">Home</a></li>
@@ -36,13 +37,24 @@ if(!isset($_SESSION['username'])){
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
         </nav>
+        </div>
         
         <div class="content">
-            <h1>What is Lorem Ipsum?
+            <div class="col">
+             <h1>Kerala</h1>
+            <p1>What is Lorem Ipsum?
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book.</h1>
-
+                scrambled it to make a type specimen book.</p1>
+                </div>
+                <div class="col">
+                    <div class="card card1">
+                        <h5>location</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Architect</h5>
+                    </div>
+                </div>
                 </div>
     </div>
     <footer>
