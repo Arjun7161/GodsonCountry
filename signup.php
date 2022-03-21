@@ -18,6 +18,7 @@
     />
 </head>
 <body>
+<div class="bg">
 <div class="high">
         <nav>
             <img src="Img/logo.png" class="logo">
@@ -62,6 +63,7 @@
             </div>
         </div>
     </div>
+</div>
     </section>
     <footer>
         <p>Copyright CMM007 | 2022 | Gods Own Country</p>

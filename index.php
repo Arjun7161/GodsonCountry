@@ -36,13 +36,14 @@ if(!isset($_SESSION['username'])){
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
         </nav>
+        
         <div class="content">
             <h1>What is Lorem Ipsum?
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book.</h1>
 
-        </div>
+                </div>
     </div>
     <footer>
         <p>Copyright CMM007 | 2022 | Gods Own Country</p>

@@ -163,3 +163,6 @@ form{
     background-size: cover;
     position: absolute;
 }
+form .form-group label{
+    color: #ccc;
+}
