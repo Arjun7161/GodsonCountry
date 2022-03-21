@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/* index page*/
 .navbar{
     height: 12%;
     font-family: 'Fredoka One', cursive;
@@ -118,6 +118,13 @@ flex-basis: 50%;
   .card2{
     background-image: url(Img/Kerala-backwaters-49.jpg);
  }
+
+
+
+
+
+
+
  .video{
      position: absolute;
      right: 0;
@@ -137,6 +144,8 @@ flex-basis: 50%;
     }
 }
 
+
+/* login page and sign up*/
 form{
     width: 500px;
     border: 2px solid #ccc;
