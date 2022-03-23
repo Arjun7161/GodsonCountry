@@ -9,7 +9,7 @@ $email=$_POST['email'];
 $pass=$_POST['password'];
 $cpass=$_POST['cpassword'];
 
-$sq="select* from signup where name='$name'";
+$sq="select * from signup where name='$name'";
 
 $result = mysqli_query($con,$sq);
 
