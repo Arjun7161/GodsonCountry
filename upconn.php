@@ -34,7 +34,7 @@ if ($fileSize<5000000){
     mysqli_query($conn,$query);
     echo
     "<script> alert('File Added');
-    document.location.href = 'savedata.php';
+    document.location.href = 'savefile.php';
     </script>";
 }else{
     echo "File size not accepted";
