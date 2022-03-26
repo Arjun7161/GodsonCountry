@@ -18,7 +18,7 @@
 </head>
 <body>
     <form action="upconn.php" method="POST" enctype="multipart/form-data">
-        <label for="name">Location/Attraction :</label>
+        <label for="name">Destination :</label>
         <input type="text" name="names" id="names" required value=""><br><br>
         <label for="file">File :</label>
         <input type="file" name="file"><br><br>
