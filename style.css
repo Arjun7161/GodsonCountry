@@ -221,10 +221,10 @@ form .form-group label{
 }
 
 /* main page */
-.card3{
+.card .card3{
     background-image: url(Img/admin.png);
  }
 
- .card4{
+ .card .card4{
     background-image: url(Img/user-logo.jpg);
  }
