@@ -1,10 +1,4 @@
 <?php
-session_start();
-if(!isset($_SESSION['username'])){
-    header('location:main.php');
-}
-
-
 
 ?>
 
@@ -14,7 +8,7 @@ if(!isset($_SESSION['username'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Main</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -30,11 +24,9 @@ if(!isset($_SESSION['username'])){
         <a class="navbar-brand" href="index.php">God's Own Country</a>
         <nav>
             <ul>
-            <h1>Welcome <?php echo $_SESSION['username']; ?> </h1>
-                <li><a class="nav-link" href="index.php">Home</a></li>
-                <li><a class="nav-link" href="about.php">About Us</a></li>
-                <li><a class="nav-link" href="login.php">Log In</a></li>
+            <h1>Welcome </h1>
                 <li><a class="nav-link" href="signup.php">Sign Up</a></li>
+                <li><a class="nav-link" href="about.php">About Us</a></li>
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
         </nav>
@@ -49,11 +41,11 @@ if(!isset($_SESSION['username'])){
                 scrambled it to make a type specimen book.</p1>
                 </div>
                 <div class="col">
-                    <div class="card card1">
-                        <a href="location.php" class="button"> Location</a>
+                    <div class="card card3">
+                        <a href="adminlogin.php" class="button">Admin Log In</a>
                     </div>
-                    <div class="card card2">
-                        <a href="architect.php" class="button">Attractions</a>
+                    <div class="card card4">
+                        <a href="login.php" class="button">User Log In</a>
                     </div>
                 </div>
                 </div>

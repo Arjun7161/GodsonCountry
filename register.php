@@ -1,6 +1,6 @@
 <?php
 session_start();
-header('location:login.php');
+header('location:main.php');
 $con= mysqli_connect('localhost','root','');
 $errors=array();
 mysqli_select_db($con,'cmm007');
