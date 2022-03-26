@@ -52,6 +52,8 @@ $rows= mysqli_query($conn,"SELECT * FROM upload ORDER BY id DESC");
     </tr>
     <?php endforeach; ?>
 </table>
-
+<footer>
+        <p>Copyright CMM007 | 2022 | Gods Own Country</p>
+    </footer>
 </body>
 </html>
