@@ -221,10 +221,20 @@ form .form-group label{
 }
 
 /* main page */
-.card .card3{
+.card3 {
     background-image: url(Img/admin.png);
+    color: black;
  }
 
- .card .card4{
+ .card4{
     background-image: url(Img/user-logo.jpg);
  }
+
+ .mainbg{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,50,.05),rgba(0,0,50,0.5)),url(Img\Ernakulam.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}

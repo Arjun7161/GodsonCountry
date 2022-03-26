@@ -53,7 +53,7 @@ if(!isset($_SESSION['username'])){
                         <a href="location.php" class="button"> Location</a>
                     </div>
                     <div class="card card2">
-                        <a href="architect.php" class="button">Attractions</a>
+                        <a href="savefile.php" class="button">Attractions</a>
                     </div>
                 </div>
                 </div>

@@ -48,7 +48,7 @@ if(!isset($_SESSION['username'])){
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer.
                </p1>
-                        <a href="location.php" class="button"> Palakkad</a>
+                        <a href="palakkadview.php" class="button"> Palakkad</a>
                     </div>
                     <div class="card card2">
                     <p1>What is Lorem Ipsum?

@@ -14,10 +14,9 @@
 </head>
 
 <body>
+<div class="mainbg">
     <div class="high">
-        <video class="video" autoplay loop muted plays-incline>
-            <source src="Img/istockphoto-1366247940-640_adpp_is.mp4" type="video/mp4">
-        </video>
+        
 
         <div class="navbar">
         <img src="Img/logo.png" class="logo">
@@ -49,6 +48,7 @@
                     </div>
                 </div>
                 </div>
+    </div>
     </div>
     <footer>
         <p>Copyright CMM007 | 2022 | Gods Own Country</p>
