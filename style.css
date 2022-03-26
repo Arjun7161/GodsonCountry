@@ -223,13 +223,17 @@ form .form-group label{
 /* main page */
 .card3 {
     background-image: url(Img/admin.png);
-    color: black;
+    
  }
-
+.card3 a{
+    color: black;
+}
  .card4{
     background-image: url(Img/user-logo.jpg);
  }
-
+ .card4 a{
+    color: black;
+}
  .mainbg{
     height: 100%;
     width: 100%;
