@@ -12,12 +12,12 @@ function get_all_data(){
          Story
        </div>
          <div class="card-body">
-         <h4><a class="text-secondary" href="single.php?id='.$row['id'].'">'.$row['title'].'</a></h4>
+         <h4 class=""><a class="text-secondary" href="single.php?id='.$row['id'].'">'.$row['title'].'</a></h4>
          <p class="card-text">'. htmlspecialchars_decode(substr($row['content'],0,100)).'...</p>
          <div class="d-flex justify-content-between align-items-center">
          <div class="btn-group">
-         <a href="single.php?id='.$row['id'].'" class="btn btn-sm btn-outline-primary" role="botton" araia-pressed="true">View</a>
-         <a href="update.php?id='.$row['id'].'" class="btn btn-sm btn-outline-secondary" role="botton" araia-pressed="true">Edit</a>
+         <a href="single.php?id='.$row['id'].'" class="btn btn-sm btn-outline-primary" role="botton" aria-pressed="true">View</a>
+         <a href="update.php?id='.$row['id'].'" class="btn btn-sm btn-outline-secondary" role="botton" aria-pressed="true">Edit</a>
          </div>
          </div>
          </div>
