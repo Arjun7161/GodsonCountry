@@ -136,7 +136,7 @@ function get_all_edit_data(){
             echo '<tr>
             <td>'.$row['title'].'</td>
             <td>
-            <a href="update.php?id='.$row['id'].'">Edit</a>
+            <a href="adminupdate.php?id='.$row['id'].'">Edit</a>
             |
             <a href="delete.php?id='.$row['id'].'">Delete</a>
             </td>

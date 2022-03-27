@@ -1,6 +1,9 @@
 <?php
 require ('function.php');
-
+session_start();
+if(!isset($_SESSION['username'])){
+    header('location:main.php');
+}
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +18,24 @@ require ('function.php');
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
+<div class="bg-location">
+<div class="high">
+        
 
+        <div class="navbar">
+        <img src="Img/logo.png" class="logo">
+        <a class="navbar-brand" href="index.php">God's Own Country</a>
+        <nav>
+            <ul>
+            <h1>Welcome <?php echo $_SESSION['username']; ?> </h1>
+                <li><a class="nav-link" href="index.php">Home</a></li>
+                <li><a class="nav-link" href="about.php">About Us</a></li>
+                <li><a class="nav-link" href="upload.php">Upload Image</a></li>
+                <li><a class="nav-link" href="text.php">WriteStory</a></li>
+                <li><a class="nav-link" href="logout.php">Log Out</a></li>
+            </ul>
+        </nav>
+        </div>
 
     <div class="container">
 <div class="row">
@@ -28,7 +48,7 @@ require ('function.php');
       </div>
       <div class="form-group">
           <label for="content">Text Area</label>
-          <textarea class="form-control" id="content" name="content" rows="4" col="50"></textarea>
+          <textarea class="form-control" id="content" name="content" rows="10" col="30"></textarea>
       </div>
 <button type="submit" class="btn btn-primary">Save Story</button>
 </form>
@@ -43,6 +63,8 @@ require ('function.php');
 
 
     </div>
+</div>
+</div>
 <footer>
         <p>Copyright CMM007 | 2022 | Gods Own Country</p>
     </footer>

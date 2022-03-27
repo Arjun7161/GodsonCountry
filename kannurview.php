@@ -36,7 +36,7 @@ require'upconn.php';
             </ul>
         </nav>
         </div>
-     <table border=1 cellspacing=0 cellpadding=10>
+     <table>
          <tr>
              
 </tr>

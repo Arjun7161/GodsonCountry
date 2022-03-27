@@ -2,9 +2,10 @@
 require_once 'function.php';
 $row=update_get();
 session_start();
-if(!isset($_SESSION['username'])){
+if(!isset($_SESSION['adminname'])){
     header('location:main.php');
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -26,10 +27,9 @@ if(!isset($_SESSION['username'])){
         <a class="navbar-brand" href="index.php">God's Own Country</a>
         <nav>
             <ul>
-            <h1>Welcome <?php echo $_SESSION['username']; ?> </h1>
-                <li><a class="nav-link" href="index.php">Home</a></li>
-                <li><a class="nav-link" href="storylist.php">Stories</a></li>
-                <li><a class="nav-link" href="upload.php">Upload File</a></li>
+            <h1>Welcome <?php echo $_SESSION['adminname']; ?> </h1>
+                <li><a class="nav-link" href="admin.php">Home</a></li>
+                <li><a class="nav-link" href="delete.php">Delete</a></li>
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
             </ul>
         </nav>

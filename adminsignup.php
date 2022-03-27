@@ -31,7 +31,7 @@ if(!isset($_SESSION['adminname'])){
 
             <ul>
             <h1>Welcome <?php echo $_SESSION['adminname']; ?></h1>
-                <li><a class="nav-link" href="index.php">Home</a></li>
+                <li><a class="nav-link" href="admin.php">Home</a></li>
                 <li><a class="nav-link" href="logout.php">Log Out</a></li>
 
             </ul>
